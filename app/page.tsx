@@ -32,7 +32,7 @@ export default function LandingPage() {
                  w-full sm:w-auto text-center
                  max-w-[200px] sm:max-w-none"
       >
-        LET'S START
+        {"LET&apos;S START"}
       </Link>
     </div>
   );

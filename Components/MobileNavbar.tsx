@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Search, UserCircle2 } from 'lucide-react'; // UserCircle2 for profile, Search for find
+import { Heart, Search } from 'lucide-react'; // Search for find
 
 interface MobileNavItemProps {
   icon: React.ReactNode;

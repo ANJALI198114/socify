@@ -12,7 +12,6 @@ import {
   Dog, // For Pets
   Baby, // For Children
   HelpCircle,
-  Undo2,
   X,
   Check,
   Briefcase,
@@ -90,15 +89,6 @@ const QuestionIcon = ({
 }) => (
   <IconWrapper className={className}>
     <HelpCircle />
-  </IconWrapper>
-);
-const UndoIcon = ({
-  className = "w-5 h-5 sm:w-6 sm:h-6 text-white ",
-}: {
-  className?: string;
-}) => (
-  <IconWrapper className={className}>
-    <Undo2 />
   </IconWrapper>
 );
 const CrossIcon = ({
