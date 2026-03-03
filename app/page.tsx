@@ -32,7 +32,8 @@ export default function LandingPage() {
                  w-full sm:w-auto text-center
                  max-w-[200px] sm:max-w-none"
       >
-        {"LET&apos;S START"}
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        {'LET\'S START'}
       </Link>
     </div>
   );
